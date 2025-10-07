@@ -74,3 +74,35 @@
   vertical-align: middle;
 }
 
+/* Footer styling */
+.site-footer {
+  background-color: #292929;
+  color: #fff;
+  margin-top: 0;           /* removes any space above footer */
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.site-footer .footer-hr {
+  border: 0;
+  border-top: 1px solid rgba(255,255,255,.25);
+  margin-top: .5rem;
+  margin-bottom: .75rem;
+}
+.site-footer p {
+  margin-bottom: .4rem;
+}
+
+/* Shorten email input box */
+.short-input {
+  max-width: 220px;        /* shorter width like screenshot */
+}
+
+/* Align form neatly on smaller screens */
+@media (max-width: 576px) {
+  .short-input {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+
