@@ -1,4 +1,4 @@
-/* Keep all icons black (including hover, focus, active, open states) */
+/* Icon link styling */
 .icon-link,
 .icon-link:visited,
 .icon-link:hover,
@@ -8,37 +8,69 @@
   color: #000 !important;
   text-decoration: none;
 }
+.icon-link i { color: #000 !important; font-size: 1rem; }
+.icon-link span { color: #000 !important; }
 
-/* Make all icons black */
-.icon-link i {
-  color: #000 !important;
-  font-size: 1rem;
-}
-
-/* Keep cart number black */
-.icon-link span {
-  color: #000 !important;
-}
-
-/* Cart dropdown menu: white background, black text */
+/* Cart dropdown */
 .cart-dropdown {
   background-color: #fff !important;
   border: 1px solid #ddd;
 }
-
-/* Make sure text is visible (black) */
 .cart-dropdown .dropdown-item {
   color: #000 !important;
   background-color: #fff !important;
 }
-
-/* Hover state: light gray background, black text */
 .cart-dropdown .dropdown-item:hover {
   background-color: #f1f1f1 !important;
   color: #000 !important;
 }
-
-/* Divider color */
 .cart-dropdown .dropdown-divider {
   border-color: #ccc !important;
 }
+
+/* Menu below logo */
+.second-menu {
+  padding-top: 1.5rem;
+}
+.second-menu .nav-link {
+  color: #000;
+  font-weight: 800; /* slightly bolder text */
+  letter-spacing: .02em;
+}
+.second-menu .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Keep dropdown caret spacing small */
+.second-menu .dropdown-toggle::after {
+  margin-left: .3rem;
+  vertical-align: middle;
+}
+/* Bold dropdown items inside the second menu */
+.second-menu .dropdown-menu .dropdown-item {
+  font-weight: 700;      /* makes dropdown text bold */
+  color: #000;
+}
+
+.second-menu .dropdown-menu .dropdown-item:hover {
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+/* Existing menu styling (unchanged) */
+.second-menu {
+  padding-top: 1.5rem;
+}
+.second-menu .nav-link {
+  color: #000;
+  font-weight: 800;      /* keeps top menu bold */
+  letter-spacing: .02em;
+}
+.second-menu .nav-link:hover {
+  text-decoration: underline;
+}
+.second-menu .dropdown-toggle::after {
+  margin-left: .3rem;
+  vertical-align: middle;
+}
+
