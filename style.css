@@ -1,0 +1,44 @@
+/* Keep all icons black (including hover, focus, active, open states) */
+.icon-link,
+.icon-link:visited,
+.icon-link:hover,
+.icon-link:focus,
+.icon-link:active,
+.icon-link.show {
+  color: #000 !important;
+  text-decoration: none;
+}
+
+/* Make all icons black */
+.icon-link i {
+  color: #000 !important;
+  font-size: 1rem;
+}
+
+/* Keep cart number black */
+.icon-link span {
+  color: #000 !important;
+}
+
+/* Cart dropdown menu: white background, black text */
+.cart-dropdown {
+  background-color: #fff !important;
+  border: 1px solid #ddd;
+}
+
+/* Make sure text is visible (black) */
+.cart-dropdown .dropdown-item {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+
+/* Hover state: light gray background, black text */
+.cart-dropdown .dropdown-item:hover {
+  background-color: #f1f1f1 !important;
+  color: #000 !important;
+}
+
+/* Divider color */
+.cart-dropdown .dropdown-divider {
+  border-color: #ccc !important;
+}
